@@ -133,12 +133,16 @@ html {
   font-size: 2rem;
 }
 
-.icon-linkedin, .icon-github, .icon-medium {
+.icon-linkedin,
+.icon-github,
+.icon-medium {
   font-size: 2rem;
   color: rgb(121, 116, 116);
   background-color: transparent;
 }
-.icon-linkedin:hover, .icon-github:hover, .icon-medium:hover {
+.icon-linkedin:hover,
+.icon-github:hover,
+.icon-medium:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -202,7 +206,12 @@ html {
 }
 
 .header-bc {
-  background-image: linear-gradient(to right bottom, rgba(248, 100, 32, 0.7), rgba(236, 151, 112, 0.7)), url(../img/about.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(248, 100, 32, 0.7),
+      rgba(236, 151, 112, 0.7)
+    ),
+    url(../img/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -210,7 +219,12 @@ html {
 }
 
 .bg-grey {
-  background-image: linear-gradient(to right bottom, rgba(44, 44, 44, 0.5), rgba(121, 116, 116, 0.5)), url(../img/bc-about.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(44, 44, 44, 0.5),
+      rgba(121, 116, 116, 0.5)
+    ),
+    url(../img/bc-about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -218,7 +232,12 @@ html {
 }
 
 .bg-orange {
-  background-image: linear-gradient(to right bottom, rgba(248, 100, 32, 0.5), rgba(248, 100, 32, 0.8)), url(../img/about.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(248, 100, 32, 0.5),
+      rgba(248, 100, 32, 0.8)
+    ),
+    url(../img/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -230,7 +249,12 @@ html {
 }
 
 .card-orange {
-  background-image: linear-gradient(to right bottom, rgba(248, 100, 32, 0.8), rgba(248, 100, 32, 0.8)), url(../img/bc-grey.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(248, 100, 32, 0.8),
+      rgba(248, 100, 32, 0.8)
+    ),
+    url(../img/bc-grey.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -244,7 +268,12 @@ html {
 }
 
 .card-grey {
-  background-image: linear-gradient(to right bottom, rgba(121, 116, 116, 0.9), rgba(121, 116, 116, 0.9)), url(../img/bc-grey.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(121, 116, 116, 0.9),
+      rgba(121, 116, 116, 0.9)
+    ),
+    url(../img/bc-grey.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -256,7 +285,12 @@ html {
 }
 
 .bg-about {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/about-card.png);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url(../img/about-card.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -274,7 +308,12 @@ html {
 }
 
 .bg-experience {
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/bg-experience.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../img/bg-experience.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -306,7 +345,12 @@ html {
 }
 
 .bg-education {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/education-bg.jpg);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(../img/education-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -323,7 +367,11 @@ html {
 }
 
 .bg-certificate {
-  background-image: linear-gradient(to top, rgba(121, 116, 116, 0.2), rgba(121, 116, 116, 0.2));
+  background-image: linear-gradient(
+    to top,
+    rgba(121, 116, 116, 0.2),
+    rgba(121, 116, 116, 0.2)
+  );
   border-radius: 0.2rem;
   -webkit-box-shadow: rgba(121, 118, 117, 0.2) 0px 8px 24px;
   box-shadow: rgba(121, 118, 117, 0.2) 0px 8px 24px;
@@ -385,7 +433,9 @@ html {
   box-shadow: rgba(5, 1, 0, 0.6) 0px 8px 24px;
   transition: all 1s ease-out;
 }
-.card-btn:hover, .card-btn:focus {
+.card-btn:hover,
+.card-btn:focus,
+.card-btn:active {
   background-color: rgba(255, 255, 255, 0.9);
   color: rgb(248, 100, 32);
 }
@@ -624,9 +674,9 @@ iframe {
   }
 
   h1,
-h4,
-strong.heading-primary,
-span.heading-primary.mr-3 {
+  h4,
+  strong.heading-primary,
+  span.heading-primary.mr-3 {
     font-size: 18px;
   }
 
@@ -726,7 +776,8 @@ span.heading-primary.mr-3 {
 }
 
 .text-shadow {
-  text-shadow: -1px -1px 0 rgb(233, 89, 6), 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 rgb(233, 89, 6), 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   margin-bottom: 5rem;
   margin-top: 1rem;
 }
