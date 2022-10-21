@@ -6,12 +6,10 @@
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
- 
-  "homepage": "https://GulcanC.github.io/Portfolio_CHE",
+  "homepage": "https://GulcanC.github.io/portfolio-gc",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
