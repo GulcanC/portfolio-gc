@@ -158,7 +158,7 @@ html {
 
 #main-header img {
   width: 100%;
-  height: 100%;
+  height: 31.8rem;
 }
 
 #main-header .port-item {
@@ -704,6 +704,11 @@ iframe {
   #CV iframe {
     display: inline;
   }
+
+  #main-header img {
+    width: 100%;
+    height: 32.8rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1700px) {
   .card-body-projects {
@@ -715,6 +720,12 @@ iframe {
   .card-body-projects {
     background-color: rgba(121, 116, 116, 0.7);
     height: 17rem;
+  }
+}
+@media (max-width: 767px) {
+  #main-header img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 576px) {
