@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "GULCAN COSKUN",
   "license": "ISC",
   "homepage": "https://GulcanC.github.io/portfolio-gc",
   "dependencies": {
